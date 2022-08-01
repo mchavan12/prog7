@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         b= (Button) findViewById(R.id.fetch); b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String strUrl = "https://api.androidhive.info/contacts/"; new UrlHandler().execute(strUrl);
+                String strUrl = "https://raw.githubusercontent.com/brai0/android7/main/contacts.json"; new UrlHandler().execute(strUrl);
             }
         });
     }
